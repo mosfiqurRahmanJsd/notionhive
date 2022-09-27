@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+
+
+.header {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 11;
+    color: white;
+    min-height: 100px;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 128px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+}
+
+.contact a {
+    padding-left: 7px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.help-link {
+    display: inline-block;
+
+}
+
+.help-link a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 15px 35px;
+    font-size: 13px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.help-link a:last-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 128px;
+    position: relative;
+}
+
+nav h1 {
+    font-size: 32px;
+    padding-right: 119px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+
+nav .search {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+}
+
+
+nav .search img {
+   width: 16px;
+   height: 16px;
+
+}
+
+nav .search a {
+   display: flex;
+   align-self: center;
+   
+}
+
+
+
+
+
+.item {
+    min-height: 640px;
+    position: relative;
+    z-index: -9999;
+    color: white;
+}
+
+
+
+
+
+
+
+.item h1 {
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.item p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 54px;
+}
+
+.item a {
+    width: 155px;
+    height: 150px;
+    padding: 16px 24px;
+    background-color: #EA4715;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.sliderbg1 {
+    background-image: url('./images/slider-img1.png');
+}
+
+.sliderbg2 {
+    background-image: url('./images/slider-img2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sliderbg3 {
+    background-image: url('./images/slider-img3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 146px;
+    left: 128px;
+}
+
+.hero-contain {
+    position: absolute;
+    left: 128px;
+    top: 231px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 7px;
+    height: 7px;
+    background-color: #FFFFFF;
+
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    width: 7px;
+    height: 7px;
+    background: none;
+    border: 2px solid #FFFFFF;
+}
