@@ -58,7 +58,7 @@ nav {
     align-items: center;
     margin: 20px 128px;
     position: relative;
-    justify-content: space-between;
+    align-self: baseline;
 }
 
 nav h1 {
@@ -71,13 +71,9 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-right: 240px;
     overflow: hidden;
 }
 
-nav ul .nav {
-    padding-left: 200px
-}
 
 nav li {
     float: left;
@@ -87,7 +83,7 @@ nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 19px;
     text-decoration: none;
     font-size: 15px;
 
@@ -102,6 +98,7 @@ nav .search {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 15px;
+    padding-left: 244px;
 }
 
 
